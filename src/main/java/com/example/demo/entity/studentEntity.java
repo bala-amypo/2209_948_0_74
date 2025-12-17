@@ -28,8 +28,8 @@ public class studentEntity{
     public studentEntity(Long id,String name,String email){
         this.id=id;
         this.name=name;
-        this.email=email;
+        this.email=email; 
     }
-    
+
    
 }
