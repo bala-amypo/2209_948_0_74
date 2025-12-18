@@ -8,10 +8,10 @@ import jakarta.validation.Valid;
 @RestController
 public class studentController{
     @Autowired
-    studentServiceImpl service;
+    studentService service;
 
     @GetMapping("/getAllStudent")
-    public Lis<studentEntity>getAll(){
+    public List<studentEntity>getAll(){
        return service.getAll();
     }
 
