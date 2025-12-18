@@ -5,6 +5,7 @@ import com.example.demo.repository.*;
 import com.example.demo.entity.*;
 import java.util.*;
 import org.springframework.beans.factory.annotation.*;
+import org.springframework.stereotype.Service;
 
 @Service
 public class studentServiceImpl implements StudentService{
