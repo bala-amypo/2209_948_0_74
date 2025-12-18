@@ -1,8 +1,9 @@
 package com.example.demo.controller;
 
 import org.springframework.web.bind.annotation.*;
+import org.springframework.beans.factory.annotation.*;
 import com.example.demo.entity.*;
-import com.example.demo.service.*;
+import com.example.demo.service.StudentService;
 import jakarta.validation.Valid;
 import java.util.*;
 
