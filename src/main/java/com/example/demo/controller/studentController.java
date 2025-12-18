@@ -4,11 +4,12 @@ import org.springframework.web.bind.annotation.*;
 import com.example.demo.entity.*;
 import com.example.demo.service.*;
 import jakarta.validation.Valid;
+import java.util.*;
 
 @RestController
 public class studentController{
     @Autowired
-    studentService service;
+    StudentService service;
 
     @GetMapping("/getAllStudent")
     public List<studentEntity>getAll(){
