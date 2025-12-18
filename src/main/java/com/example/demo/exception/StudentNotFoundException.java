@@ -1,6 +1,6 @@
 package com.example.demo.exception;
 
-import com.example.demp.service.*;
+import com.example.demo.service.*;
 
 public class StudentNotFoundException extends RunTimeException{
     
