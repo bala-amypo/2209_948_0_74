@@ -8,7 +8,7 @@ import org.springframework.validation.*;
 
 
 @RestControllerAdvice
-public class globalExceptionHandler{
+public class GlobalExceptionHandler{
      
      @ExceptionHandler(MethodArgumentNotValidException.class)
      public ResponseEntity<?>handleFieldError(MethodArgumentNotValidException ex){
