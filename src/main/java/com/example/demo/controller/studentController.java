@@ -33,7 +33,8 @@ public class studentController{
     }
 
     @DeleteMapping("/delete/{id}")
-    public studentEntity deletebyId(@PathVariable Long id){
-        return service.deletebyId(id);
+    public String deletebyId(@PathVariable Long id){
+        service.deletebyId(id);
+        
     }
 }

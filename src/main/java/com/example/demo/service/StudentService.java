@@ -13,5 +13,5 @@ public interface StudentService{
 
     studentEntity updatebyId(Long id,studentEntity newstu);
 
-    studentEntity deletebyId(Long id);
+    String deletebyId(Long id);
 }
